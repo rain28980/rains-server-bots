@@ -1,0 +1,20 @@
+other 0x505050
+gold tickets ffff00
+silver tickets cccccc
+collab b3b300
+custom 00ffff
+
+help, all, all11,
+nekoluga
+dynamites
+wargods
+galaxy
+emperors
+souls
+heroes
+almighties
+legion
+pixies
+uberfest
+epicfest
+-l -r -g -11
