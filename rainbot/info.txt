@@ -1,0 +1,10 @@
+prefix "l."
+required:
+discord.js
+better-sqlite
+
+features to add
+message when leave/join
+images from reddit
+quiz
+general purpose bot stuff
