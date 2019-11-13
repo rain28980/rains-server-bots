@@ -18,3 +18,8 @@ pixies
 uberfest
 epicfest
 -l -r -g -11
+
+prefix "roll "
+
+requires:
+discord.js
