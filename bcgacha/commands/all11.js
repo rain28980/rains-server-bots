@@ -1,12 +1,13 @@
 exports.run = (client, message, args) => {
 const bclotto = require("../bclotto.js")
 
-const a = [bclotto.soup(),bclotto.soup(),bclotto.soup(),bclotto.soup(),bclotto.soup(),bclotto.soup(),bclotto.soup(),bclotto.soup(),bclotto.soup(),bclotto.soup(),bclotto.soup()]
-    for(i = 0; i < a.length; i++){
-  const b[i] = a[i].replace(/\*|_| |-/gi, "").concant("57829")
+const x = [bclotto.soup(),bclotto.soup(),bclotto.soup(),bclotto.soup(),bclotto.soup(),bclotto.soup(),bclotto.soup(),bclotto.soup(),bclotto.soup(),bclotto.soup(),bclotto.soup()];
+const y = ["a"];
+for(i = 0; i < x.length; i++){
+  y[i] = x[i].replace(/\*|_| |-/gi, "").concat("57829");
 }
     message.channel.send({embed: {
-    description: `${a[1]} ${b[1]}`,
+    description: `${x[1]} ${y[1]} \n ${x[2]} ${y[2]} \n ${x[3]} ${y[3]} \n ${x[4]} ${y[4]} \n ${x[5]} ${y[5]} \n ${x[6]} ${y[6]} \n ${x[7]} ${y[7]} \n ${x[8]} ${y[8]} \n ${x[9]} ${y[9]} \n ${x[10]} ${y[10]} \n ${x[11]} ${y[11]}`,
     color: 0x505050,
     thumbnail: {
       url: "https://cdn.discordapp.com/avatars/481973540317560832/1c20333f6e35bf6b84b1f2cef7b44b53.png"
