@@ -64,7 +64,7 @@ exports.soup = function soup(z2,z3){
 
 		case 1:
 		b3 = Math.floor(Math.random()*Dynamites.length);
-	   c3 = Dynamites[b3];
+	   	c3 = Dynamites[b3];
 		c4 = legend[1];
 		break;
 
@@ -137,26 +137,21 @@ exports.soup = function soup(z2,z3){
 		c4 = legend[b4];
 	}
 	//which rarity you will get
-if(z3 == 10 || 11){
-	var x = Math.floor(Math.random()*100);
-		  if (x < 65){
-		var a6 = c1;
-	} else if (x < 91){
-		a6 = c2;
-	} else {
-		a6 = c3;
+var a6;
+	var x;
+	switch(z3){
+	   case 10:
+	        x = Math.floor(Math.random()*100);
+	        if(x < 65){a6 = c1}else if(x < 91) {a6 = c2;}else{a6 = c3}
+	        break;
+	   case 11:
+	        x = Math.floor(Math.random()*100);
+	        if(x < 65){a6 = c1}else if(x < 91) {a6 = c2;}else{a6 = c3}
+	        break;
+	   default:
+	       x = Math.floor(Math.random()*2000);
+	        if(x < 747){a6 = c1}else if(x < 947){a6 = c2;}else if(x < 997){a6 = c3}else{a6 = c4}
+	        break;
 	}
-}else {
-var x = Math.floor(Math.random()*1000);
-	  if (x < 747){
-	var a6 = c1;
-} else if (x < 947){
-	a6 = c2;
-} else if (x < 997){
-	a6 = c3;
-} else{
-	a6 = c4;
-}
-}
 return a6;
 }
