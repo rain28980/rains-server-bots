@@ -8,11 +8,11 @@ exports.run = (client, message, args) => {
     "fields": [
       {
         "name": "how to use",
-        "value": "type +roll followed by an uber group \n example +roll nekoluga"
+        "value": "type roll followed by an uber group \n example roll nekoluga"
       },
       {
         "name": "additional gacha factors ",
-        "value": "add an l before the uber group to add limited edtion super rares \n add a r before the uber group to add reinforcements \n add a g before the uber group to add the Grandon Mining Corps \n add an 11 after the uber group to make it an eleven draw \n example +roll gnekoluga"
+        "value": "add an -l after the uber group to add limited edtion super rares \n add a -r after the uber group to add reinforcements \n add a -g after the uber group to add the Grandon Mining Corps \n add an 11 after everything to make it an eleven draw \n example roll nekoluga-g11"
       },
       {
         "name": "suggest gachas to add",
